@@ -3,6 +3,8 @@ trigger: 'none' # will disable CI builds entirely
 pr: none
 # - master
 # - releases/*
+pool:
+  name: WindowsAgent
 
 jobs:
 - job: WebApp
