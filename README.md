@@ -12,30 +12,21 @@ Sample ASP.NET Core MVC app with database, UI tests (Selenium) and ARM template 
   </tr>
   <tr>
     <td>
-<img src="https://houssemdellai.visualstudio.com/WebAppWithDatabaseDemo/_apis/build/status/WebAppWithDatabase-CI-mutiphase?branchName=master"/>
+<img src="https://dev.azure.com/pablocominiello/DevOps/_apis/build/status/WebAppWithDatabaseCI"/>
     </td>
     <td>
-<img src="https://houssemdellai.vsrm.visualstudio.com/_apis/public/Release/badge/7ac88337-9f15-48dd-ab33-a60c7a26e4a5/4/6"/>
+<img src=""/>
   </td>
     <td>
-<img src="https://houssemdellai.vsrm.visualstudio.com/_apis/public/Release/badge/7ac88337-9f15-48dd-ab33-a60c7a26e4a5/4/9"/>
+<img src=""/>
     </td>
     <td>
-<img src="https://houssemdellai.vsrm.visualstudio.com/_apis/public/Release/badge/7ac88337-9f15-48dd-ab33-a60c7a26e4a5/4/10"/>
+<img src=""/>
   </td>
   </tr>
   </table>
   
   </br>
-  
-  <a href="http://armviz.io/#/?load=https://raw.githubusercontent.com/HoussemDellai/WebAppWithDatabaseDemo/master/AzureResourceGroupDeployment/WebSiteSQLDatabase.json" target="_blank">
-  <img src="http://armviz.io/visualizebutton.png"/>
-</a>
-
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHoussemDellai%2FWebAppWithDatabaseDemo%2Fmaster%2FAzureResourceGroupDeployment%2FWebSiteSQLDatabase.json" rel="nofollow">
-    <img src="http://azuredeploy.net/deploybutton.png" style="max-width:100%;">
-</a>
-
 </br>
 
 The complete demo is available on youtube on this link:  
