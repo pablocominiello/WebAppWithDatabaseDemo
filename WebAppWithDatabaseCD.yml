@@ -11,11 +11,7 @@ trigger:
  branches:
    include:
      - master
- paths:
-   exclude:
-     - docs/*
-     - README.md
-     - WebAppWithDatabaseCD.yml
+
 
 parameters:
 - name: runCompletePipeline
