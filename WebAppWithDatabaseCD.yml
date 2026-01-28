@@ -87,7 +87,7 @@ stages:
         ArtifactName: dacpac
 
   - job: Selenium
-    displayName: Build UI Tests
+    displayName: Build UI Tests2
     pool:
       vmImage: 'windows-latest'
       demands: msbuild
