@@ -31,7 +31,7 @@ stages:
   - job: WebApp
     displayName: Build Web App
     pool:
-      name: Hosted Windows 
+      name: Hosted Windows 2019 with VS2019
       vmImage: 'windows-latest'
     variables:
       BuildConfiguration: release
