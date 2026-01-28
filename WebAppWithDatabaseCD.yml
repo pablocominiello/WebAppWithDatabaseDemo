@@ -1,15 +1,3 @@
- paths:
-   exclude:
-     - docs/*
-     - README.md
-     - WebAppWithDatabaseCD.yml
-
-
-
-  paths:
-    exclude:
-      - docs/*
-      - README.md
 
 trigger: 'none' # will disable CI builds entirely
 # - master
