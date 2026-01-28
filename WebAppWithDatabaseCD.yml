@@ -195,7 +195,7 @@ stages:
         subscriptionId: '2eabbc77-bdf5-4d85-8f86-0738b59fa7a8'
         action: 'Create Or Update Resource Group'
         resourceGroupName: '$(ResourceGroupName)'
-        location: 'West Europe'
+        location: 'Brazil South'
         templateLocation: 'Linked artifact'
         csmFile: '$(System.DefaultWorkingDirectory)/arm/WebSiteSQLDatabase.json'
         csmParametersFile: '$(System.DefaultWorkingDirectory)/arm/WebSiteSQLDatabase.parameters.json'
