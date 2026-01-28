@@ -89,6 +89,7 @@ stages:
   - job: Selenium
     displayName: Build UI Tests2
     pool:
+      name: Azure Pipelines      
       vmImage: 'windows-latest'
       demands: msbuild
 
