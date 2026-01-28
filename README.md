@@ -12,7 +12,7 @@ Sample ASP.NET Core MVC app with database, UI tests (Selenium) and ARM template 
   </tr>
   <tr>
     <td>
-<img src="https://dev.azure.com/pablocominiello/DevOps/_apis/build/status/WebAppWithDatabaseCI"/>
+<img src="https://dev.azure.com/pablocominiello/DevOps/_apis/build/status/WebAppWithDatabase"/>
     </td>
     <td>
 <img src=""/>
@@ -29,6 +29,8 @@ Sample ASP.NET Core MVC app with database, UI tests (Selenium) and ARM template 
   </br>
 </br>
 
+
+learned from Houssem Dellai
 The complete demo is available on youtube on this link:  
 https://www.youtube.com/watch?v=X-RNXvI5_Ek&list=PLpbcUe4chE7_J_la3FlruUfAN1ec7H_bR&index=24    
 
