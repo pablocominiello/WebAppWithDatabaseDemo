@@ -1,0 +1,43 @@
+ paths:
+   exclude:
+     - docs/*
+     - README.md
+     - WebAppWithDatabaseCD.yml
+
+
+
+  paths:
+    exclude:
+      - docs/*
+      - README.md
+
+trigger: 'none' # will disable CI builds entirely
+# - master
+pr: none
+# - master
+# - releases/*
+pool:
+  name: WindowsAgent
+
+stages:
+- stage: Build_Stage
+  displayName: Build Apps
+#pool:
+#  vmImage: 'windows-latest'
+
+  jobs:
+  - job: WebApp
+    displayName: 'Build Web App'
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+      BuildConfiguration: release
+    
+    steps:
+    
+    - task: UseDotNet@2
+      displayName: Install .NET 6 sdk
+      inputs:
+        packageType: sdk
+        version: 6.0.x
+        installationPath: $(Agent.ToolsDirectory)/dotnet
