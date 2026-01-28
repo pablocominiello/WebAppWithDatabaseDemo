@@ -112,3 +112,15 @@ stages:
       displayName: 'Publish Artifact: UI-Test'
       inputs:
         ArtifactName: ui-tests
+
+  - job: Infrastructure
+    displayName: Publish Infra files
+    pool:
+      vmImage: 'ubuntu-latest'
+
+    steps:    
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Artifact: ARM templates'
+      inputs:
+        PathtoPublish: AzureResourceGroupDeployment
+        ArtifactName: arm
