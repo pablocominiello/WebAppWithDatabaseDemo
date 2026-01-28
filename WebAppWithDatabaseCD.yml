@@ -97,6 +97,11 @@ stages:
     - task: NuGetToolInstaller@0
       displayName: Use NuGet 4.3.0
 
+    - task: NuGetCommand@2
+      displayName: Restoore NuGet Packages
+      inputs:
+        restoreSolution: WebAppWithDatabase.sln
+
     - task: MSBuild@1    
       displayName: Build SeleniumUiTests.csproj
       inputs:
