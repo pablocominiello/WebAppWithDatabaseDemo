@@ -74,15 +74,14 @@ stages:
     displayName: Build Database
     pool:
       vmImage: 'windows-latest'
-      demands: msbuild
-    steps:
 
+    steps:
     - task: MSBuild@1
       displayName: Build WebApp.Database.sqlproj
       inputs:
         solution: WebApp.Database/WebApp.Database.sqlproj
         msbuildArguments: '/p:OutDir=$(Build.ArtifactStagingDirectory)'
-
+        
     - task: PublishBuildArtifacts@1
       displayName: Publish Artifact (Dacpac)
       inputs:
